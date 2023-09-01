@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="Nome:">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome" required>
+
+        </div>
+        <div>
+            <label for="Senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite a senha" required>
+        </div>
+        <div>
+            <label for="Termos">Eu concordo com Termos</label>
+            <input id="Termos" type="checkbox">
+        </div>
+        <div>
+            <input type="button" onclick="alert('Oi lindeza!')" value="Aperta aqui bb!">
+        </div>
+
+        <p>Qual  marca de carro você prefere ?</p>
+
+        <div>
+        <input type="radio" id="bmw" name="fav_carro" value="BMW">
+        <label for="bmw">BMW</label><br>
+        </div>
+
+        <div>
+        <input type="radio" id="mercedes" name="fav_carro" value="Mercedes">
+        <label for="mercedes">Mercedes</label><br>
+        </div>
+
+        <div>
+        <input type="radio" id="dodge" name="fav_carro" value="Dodge">
+        <label for="dodge">Dodge</label>
+        </div>
+
+        <div>
+        <input type="radio" id="audi" name="fav_carro" value="Audi">
+        <label for="audi">Audi</label>
+        </div>
+
+        <label for="times">Aperte no melhor time:</label>
+
+        <select name="times" id="times">
+          <option value="corinthians">Corinthians</option>
+          <option value="palmeiras">Palmeiras</option>
+          <option value="flamengo">Flamengo</option>
+          <option value="santos">Santos</option>
+
+        </select>
+
+        <button type="button">Enviar</button>
+
+    </form>
+</body>
+</html>
